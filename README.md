@@ -1,0 +1,2 @@
+# overlay
+Funtoo overlay
