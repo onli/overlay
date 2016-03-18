@@ -2,7 +2,7 @@
 <!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
 <repositories xmlns="" version="1.0">
   <repo quality="experimental" status="unofficial">
-    <name><![CDATA[onli-overlay]]></name>
+    <name><![CDATA[onli]]></name>
     <description lang="en"><![CDATA[overlay with my projects]]></description>
     <homepage>https://github.com/onli/overlay</homepage>
     <owner type="person">
