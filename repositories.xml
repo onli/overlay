@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[onli-overlay]]></name>
+    <description lang="en"><![CDATA[overlay with my projects]]></description>
+    <homepage>https://github.com/onli/overlay</homepage>
+    <owner type="person">
+      <email>onli@paskuda.biz</email>
+      <name><![CDATA[onli]]></name>
+    </owner>
+    <source type="git">git://github.com/onli/overlay.git</source>
+    <feed>https://github.com/onli/overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
