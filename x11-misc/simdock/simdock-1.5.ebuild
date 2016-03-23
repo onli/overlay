@@ -10,14 +10,15 @@ SRC_URI="https://github.com/onli/simdock/archive/${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="gnome-base/gconf
     x11-libs/libwnck:1
     x11-libs/wxGTK
     x11-libs/libxcb
-    x11-libs/xcb-util-wm"
+    x11-libs/xcb-util-wm
+    media-libs/wxsvg"
 DEPEND="${RDEPEND}
     x11-proto/xcb-proto
     dev-util/pkgconf"
