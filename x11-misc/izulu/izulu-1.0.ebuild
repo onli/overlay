@@ -10,12 +10,13 @@ SRC_URI="https://github.com/onli/izulu/archive/${PV}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~ẍ86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="media-gfx/imagemagick
-    app-text/xmlstarlet
-    dev-perl/XML-Twig"
+    dev-perl/XML-Twig
+    app-misc/jq
+    sys-devel/bc"
 
 # izulu uses a simple makefile without the configure step
 src_configure() {
