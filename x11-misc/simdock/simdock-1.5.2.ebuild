@@ -18,7 +18,7 @@ RDEPEND="gnome-base/gconf
     x11-libs/wxGTK
     x11-libs/libxcb
     x11-libs/xcb-util-wm
-    media-libs/wxsvg"
+    gnome-base/librsvg"
 DEPEND="${RDEPEND}
     x11-proto/xcb-proto
     dev-util/pkgconf"
