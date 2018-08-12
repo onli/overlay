@@ -20,7 +20,7 @@ RDEPEND="gnome-base/gconf
     x11-libs/xcb-util-wm
     gnome-base/librsvg"
 DEPEND="${RDEPEND}
-    x11-proto/xcb-proto
+    || ( x11-base/xcb-proto x11-proto/xcb-proto )
     dev-util/pkgconf"
 
 # simdock uses a simple makefile without the configure step
